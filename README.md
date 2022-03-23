@@ -41,9 +41,9 @@ We've created `Breeds` and `BreedCard` components, and a `BreedsService` that's 
 * Your notes here
 
 
-* 1. git clone or zip it
-* 2. npm install
-* 3. npm start
+* .git clone or zip it
+* .npm install
+* .npm start
 * .initally home page renders
 * .click breeds page
 * .user can see next or previous page
