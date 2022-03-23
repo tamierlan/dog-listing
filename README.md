@@ -39,6 +39,21 @@ We've created `Breeds` and `BreedCard` components, and a `BreedsService` that's 
 ### Notes
 ---
 * Your notes here
+
+
+* 1. git clone or zip it
+* 2. npm install
+* 3. npm start
+* .initally home page renders
+* .click breeds page
+* .user can see next or previous page
+* .user can load more data by extanding the page
+* .user gets notified in the last page
+
+.. If I had more time I could also add more page to render single dog and edit those data and I could also improve the styling
+
+
+
 ### License
 ---
 This project is [MIT licensed](./LICENSE).
