@@ -1,0 +1,107 @@
+.container {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.title {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.button {
+    -webkit-box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    background-color: #4e57d3;
+    background-image: none;
+    border-color: #4e57d3;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    height: 32px;
+    line-height: 1.499;
+    margin: 30px auto;
+    padding: 0 15px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    white-space: nowrap;
+}
+.centered {
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #7781e0;
+}
+
+.back-arrow {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    border-right: 15px solid rgba(0, 0, 0, 0.85);
+    left: 0;
+    margin: 0;
+}
+.arrow-label {
+    position: absolute;
+    left: 60px;
+    top: -10px;
+    color: black;
+}
+
+.arrow-container {
+    position: fixed;
+    background-color: cadetblue;
+    width: 100%;
+}
+
+.pagination {
+    float: right;
+    display: flex;
+    position:relative;
+}
+
+.pagination div {
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    height: 0;
+    margin: 0;
+}
+.pagination div {
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    height: 0;
+}
+
+.prev {
+    border-right: 15px solid rgba(0, 0, 0, 0.85);
+}
+
+.next {
+    border-left: 15px solid rgba(0, 0, 0, 0.85);
+}
+
+.page {
+    width: 30px;
+    text-align: center;
+    margin-top: -8px!important;
+}
+
+.loading {
+    width: 100%;
+    text-align: center;
+}
